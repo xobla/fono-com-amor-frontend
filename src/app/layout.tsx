@@ -1,9 +1,8 @@
-"use client"; // Adicionar esta diretiva se AuthProvider usar hooks de cliente
-
+```typescript
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { AuthProvider } from "@/contexts/AuthContext"; // Importar o AuthProvider
+import { AuthProvider } from "@/contexts/AuthContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
